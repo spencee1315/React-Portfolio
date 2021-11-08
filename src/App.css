@@ -65,9 +65,9 @@ nav a#openup {
     display: none;
 }
 
-/* Showcase */
+/* Features */
 
-#showcase {
+#features {
     margin: 0;
     padding: 0;
     background: url(./images/hero3.jpg) no-repeat center/cover;
@@ -77,15 +77,15 @@ nav a#openup {
     overflow-y: hidden;
 }
 
-#showcase .container {
+#features .container {
     margin-top: 25vh;
 }
 
-#showcase h1 {
+#features h1 {
     font-size: 4rem;
     margin-bottom: 0;
 }
-#showcase h2 {
+#features h2 {
     font-size: 2rem;
     margin-bottom: 3rem;
 }
@@ -126,9 +126,9 @@ nav a#openup {
    padding: 0 3rem;
 }
 
-/* Shows */
+/* Projects */
 
-.shows {
+.projects {
    display: grid;
    grid-gap: 20px;
    grid-template-columns: repeat(2, 1fr);
@@ -137,7 +137,7 @@ nav a#openup {
    margin-bottom: 25pt;
 }
 
-.shows h2 {
+.projects h2 {
   font-size: 2rem;
   margin-bottom: 15pt;
 }
@@ -282,20 +282,20 @@ img {
     display: none;
 }
 
-#showcase {
+#features {
     height: 75vh; 
     width: 100vw;
 }
 
-#showcase .container {
+#features .container {
     margin-top: 15vh;
 }
 
-#showcase h1 {
+#features h1 {
     font-size: 3rem;
 }
 
-#showcase h2 {
+#features h2 {
     font-size: 1.5rem;
 }
 
@@ -363,13 +363,13 @@ nav a#openup {
 }
 
 @media screen and (max-height: 580px) {
-  #showcase p.lead {
+  #features p.lead {
       display: none;
   }
 }
 
 @media screen and (max-width: 780px) {
-  .shows {
+  .projects {
       grid-template-columns: 1fr;
   }
 
@@ -384,7 +384,7 @@ nav a#openup {
 }
 
 @media screen and (max-height: 580px) {
-  #showcase p.lead {
+  #features p.lead {
       display: none;
   }
 }

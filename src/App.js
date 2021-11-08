@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 
@@ -11,7 +11,7 @@ import Projects from './components/projects/Projects';
 import Footer from './components/features/Footer';
 import Social from './components/features/Social';
 
-// resources used for Router, Switch, NavLink operations below: 
+// resources used for Router, Switch operations below: 
 // https://www.freecodecamp.org/news/react-router-cheatsheet/
 // https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/
 // https://v5.reactrouter.com/web/api/Switch
@@ -21,7 +21,7 @@ import Social from './components/features/Social';
 const App = () => {
   return (
     <Router>
-      <div id="showcase">
+      <div id="portfolioNav">
         <Navbar />
         <Header />
       </div>
@@ -29,7 +29,7 @@ const App = () => {
         <Route component={Main} path='/' exact />
         <Route component={Projects} path='/projects' exact />
       </Switch>
-      <div id="showcase">
+      <div id="portfolioNav">
         <Footer />
         <Social />
       </div>
@@ -37,24 +37,4 @@ const App = () => {
   );
 }
 
-// const Navbar = () => {
-//   return (
-//     <nav>
-//       <NavLink
-//         activeStyle={{
-//           fontWeight: "bold",
-//           color: "red"
-//         }}
-//         to="/"
-//       >
-//         Main
-//       </NavLink>
-//       <NavLink activeClassName="active" to="/projects">
-//         Projects
-//       </NavLink>
-//     </nav>
-//   );
-// }
-
 export default App;
-// export default Navbar;
