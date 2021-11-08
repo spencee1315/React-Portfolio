@@ -21,7 +21,7 @@ import Social from './components/features/Social';
 const App = () => {
   return (
     <Router>
-      <div id="portfolioNav">
+      <div id="features">
         <Navbar />
         <Header />
       </div>
@@ -29,7 +29,7 @@ const App = () => {
         <Route component={Main} path='/' exact />
         <Route component={Projects} path='/projects' exact />
       </Switch>
-      <div id="portfolioNav">
+      <div id="features">
         <Footer />
         <Social />
       </div>
