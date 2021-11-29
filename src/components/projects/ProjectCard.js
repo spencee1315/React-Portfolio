@@ -20,5 +20,5 @@ export default function ProjectCard(project) {
                 </p>
             </div>
         </Fragment>
-    )
+    );
 }
