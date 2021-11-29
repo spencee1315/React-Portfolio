@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectCard } from './ProjectCard'
+import  ProjectCard from './ProjectCard.js'
 
 // Importing Images
 import fitnessTrackerImg from '../../images/fitnessTracker.png'
@@ -8,7 +8,7 @@ import noteTakerImg from '../../images/noteTaker.png'
 import weatherAppImg from '../../images/weatherApp.png'
 
 // array of project information
-export const Project = () => {
+export default function Project() {
 
     const Data = [
         {

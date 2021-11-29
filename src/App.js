@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css';
 
@@ -25,10 +25,10 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <Switch>
+      <Routes>
         <Route component={Main} path='/' exact />
         <Route component={Projects} path='/projects' exact />
-      </Switch>
+      </Routes>
       <div id="features">
         <Footer />
         <Social />

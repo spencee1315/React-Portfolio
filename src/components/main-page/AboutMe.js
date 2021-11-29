@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AboutMe = () => {
+export default function AboutMe() {
     return (
         <main className="section backgroungd-trans-50">
             <div className="contianer mt-1">
