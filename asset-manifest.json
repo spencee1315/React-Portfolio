@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spencee1315/React-Portfolio/static/css/main.8c961e31.chunk.css",
-    "main.js": "/spencee1315/React-Portfolio/static/js/main.cf20d9a0.chunk.js",
-    "main.js.map": "/spencee1315/React-Portfolio/static/js/main.cf20d9a0.chunk.js.map",
+    "main.js": "/spencee1315/React-Portfolio/static/js/main.35fc8875.chunk.js",
+    "main.js.map": "/spencee1315/React-Portfolio/static/js/main.35fc8875.chunk.js.map",
     "runtime-main.js": "/spencee1315/React-Portfolio/static/js/runtime-main.8bd23097.js",
     "runtime-main.js.map": "/spencee1315/React-Portfolio/static/js/runtime-main.8bd23097.js.map",
     "static/js/2.da5e760d.chunk.js": "/spencee1315/React-Portfolio/static/js/2.da5e760d.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/spencee1315/React-Portfolio/index.html",
     "static/css/main.8c961e31.chunk.css.map": "/spencee1315/React-Portfolio/static/css/main.8c961e31.chunk.css.map",
     "static/js/2.da5e760d.chunk.js.LICENSE.txt": "/spencee1315/React-Portfolio/static/js/2.da5e760d.chunk.js.LICENSE.txt",
-    "static/media/echoChamber.957ffbb1.png": "/spencee1315/React-Portfolio/static/media/echoChamber.957ffbb1.png",
+    "static/media/EchoChamber.957ffbb1.png": "/spencee1315/React-Portfolio/static/media/EchoChamber.957ffbb1.png",
     "static/media/fitnessTracker.be5fe642.png": "/spencee1315/React-Portfolio/static/media/fitnessTracker.be5fe642.png",
     "static/media/noteTaker.83bc4918.png": "/spencee1315/React-Portfolio/static/media/noteTaker.83bc4918.png",
     "static/media/weatherApp.24bc29d0.png": "/spencee1315/React-Portfolio/static/media/weatherApp.24bc29d0.png"
@@ -19,6 +19,6 @@
     "static/js/runtime-main.8bd23097.js",
     "static/js/2.da5e760d.chunk.js",
     "static/css/main.8c961e31.chunk.css",
-    "static/js/main.cf20d9a0.chunk.js"
+    "static/js/main.35fc8875.chunk.js"
   ]
 }
