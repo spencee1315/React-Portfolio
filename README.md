@@ -18,13 +18,9 @@ I excel both as an individual and team environments and  with a unique backgroun
 ![MONGODB](https://img.shields.io/badge/MongoDB-430098?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
-## Link to Site GitHub Repo
+## Link to Site
 
-[Click here to visit my Porfolio](https://tech-blog-mvc-uwcodingbootcamp.herokuapp.com/)
-
-## Usage
-
-[A visual preview:](https://tech-blog-mvc-uwcodingbootcamp.herokuapp.com/)
+[Click here to visit my Porfolio](https://spencee1315.github.io/React-Portfolio/)
 
 
 ## License 
