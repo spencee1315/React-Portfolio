@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Header() {
     return (
@@ -13,7 +13,7 @@ function Header() {
                Welcome to my portfolio page. Below are a series of projects as I dive deeper into this amazing subject.
            </p>
         </main>
-    )
-}
+    );
+};
 
-export default Header();
+export default Header;

@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react'
+import React from 'react';
 import AboutMe from './AboutMe';
 
 function Main() {
     return (
-        <Fragment>
+        <div>
             <AboutMe />
-        </Fragment>
+        </div>
     )
 }
 
